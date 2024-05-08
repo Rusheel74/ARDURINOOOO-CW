@@ -145,16 +145,34 @@ clear a
 
 
 %% TASK 2 - LED TEMPERATURE MONITORING DEVICE IMPLEMENTATION [25 MARKS]
-a = arduino('COM3','UNO'); % Creates the Arduino variable and establishes aconnection
 function temp_monitor(a)
-end
-
 
 %% TASK 3 - ALGORITHMS – TEMPERATURE PREDICTION [25 MARKS]
-
-% Insert answers here
-
+function temp_prediction(a)
 
 %% TASK 4 - REFLECTIVE STATEMENT [5 MARKS]
 
-% Insert answers here
+% This project helped to take a oppertuniy to go into the world of harware
+% integration, and real-world application of theoretical concepts. From the
+% start, challenges had emerged, in understanding the Arduino-MATLAB
+% communication and calibrating the temperature senser to ensure the
+% readings are accurate. Integrating the Ardurino board to MATLAB had some
+% troubleshooting connecivity issues which demanded patience and belief.
+% Also, while calibrating the temperature sensor was a challenge as it gave
+% voltage readings and ensuring precise conversions into temperatures.
+% These challenges required theoretical knowledge and problem solving
+% skills to overcome. Despite these challenges, there were strengths in the
+% project. MATLAB offers flexibility allowing complex algorithms and data
+% processing techniques required to monitor the temperature and control the
+% LED. Having clear and consise code and documentation strenghtens the
+% process, ensuring that the code being written is easy to
+% understand.However, the project also has its own limitations. It is
+% heavily reliant on components such as the Ardurino board and the
+% temperature sensor limiting it to setups with a similar configuration.
+% The simplified prediction model also assumed that there was a constant
+% rate of change which won't reflect well in real-world scenarios. Further
+% improvements on this project would be to know how to use Ardurino better
+% and possibly some of the code couldve been more clear and concise.
+% Finding a way to ensure the temperature sensor produces accurate readings
+% and applying my skills better in the future.
+
