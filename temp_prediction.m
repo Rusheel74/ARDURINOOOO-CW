@@ -60,3 +60,12 @@ function temp_prediction
         pause(1); % Pause for interval between temperature readings
     end
 end
+
+% Monitors the temperature from the sensor and calculates the rate of
+% temperatue change. LED lights are controlled based on the temperature
+% stavility as well as its rate of change. It helos find the current
+% temperature and temperature expected in 5 minutes assuming it is at a
+% constant rate of cgange. A Green LED light is displayed if its within the
+% range, a yellow LED light means that the temperature is decreasing and a
+% red LED light indicates that the temperature variation has gone above
+% the range.
