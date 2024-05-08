@@ -1,5 +1,5 @@
 a = arduino('COM3','UNO'); % Creates the Arduino variable and establishes aconnection
- % Connect the LEDs to the corresponding pins
+% Connect the LEDs to the corresponding pins
     greenPin = 'D2'; % Green LED connected to digital pin D2
     yellowPin = 'D3'; % Yellow LED connected to digital pin D3
     redPin = 'D4'; % Red LED connected to digital pin D4
@@ -74,3 +74,10 @@ a = arduino('COM3','UNO'); % Creates the Arduino variable and establishes aconne
         % Wait for approximately 1 second before the next iteration
         pause(1);
     end
+
+
+  %temp monitor 
+% Function to continously monitor temperature.
+% Plots the live graph and controls LEDs based on temperature readings.
+% Requires the Ardurino 'a' to be passed as an input
+% Conducts the LED colour display dependent on temperature given. 
