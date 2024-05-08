@@ -1,4 +1,4 @@
-a = arduino(); % Creates the Arduino variable and establishes aconnection
+a = arduino('COM3','UNO'); % Creates the Arduino variable and establishes aconnection
  % Connect the LEDs to the corresponding pins
     greenPin = 'D2'; % Green LED connected to digital pin D2
     yellowPin = 'D3'; % Yellow LED connected to digital pin D3
