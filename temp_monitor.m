@@ -1,3 +1,4 @@
+function temp_monitor(a)
 a = arduino('COM3','UNO'); % Creates the Arduino variable and establishes aconnection
 % Connect the LEDs to the corresponding pins
     greenPin = 'D2'; % Green LED connected to digital pin D2
